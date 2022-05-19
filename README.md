@@ -1,6 +1,6 @@
 # Bateria
 
-Link: https://lucasnatanmelo.github.io/bateria/
+Link: https://lucasnatanmelo.github.io/Bateria/
 
 ## Sobre o projeto
 
