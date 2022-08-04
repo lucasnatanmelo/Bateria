@@ -39,9 +39,9 @@ function playSound(sound){
     console.log(keyElement);
     
     if(audioElement){        //Se o audio Element for encontrado... Veja que não necessitou de condicional - Já filtra por padrão os caracteres
-        navigator.vibrate(5000);
         audioElement.currentTime = 0; //Comando para sempre que ser pressionada a tecla, ser zerado contador do áudio para evitar bug
         audioElement.play(); //função play reproduzirá o elemento indicado no html
+        navigator.vibrate(5000);
     }
     if(keyElement){ 
         keyElement.classList.add('active'); //Será atriubuido o atributo .active na tecla pressionada
